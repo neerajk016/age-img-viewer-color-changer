@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <title>Neeraj</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container-1">
+        <h1>Challenge 1:Your Age in Days</h1>
+        <div class="flex-box-container-1">
+            <div>
+                <button class="btn btn-primary" onclick="ageindays()">Click Me</button>
+            </div>
+            <div>
+                <button class="btn btn-danger" onclick="reset()">Reset</button>
+            </div>
+        </div>
+        <div class="flex-box-container-1">
+            <div id="flex-box-result"></div>
+        </div>
+    </div>
+
+    <div class="container-2">
+        <h1>Challenge 2:Cat Generator</h1>
+        <button class="btn btn-success"  onclick="gcat()">Generate</button>
+        <button class="btn btn-danger" onclick="rem()">Remove Cat</button>
+        <div class="flex-box-container-2" id="cat"></div>
+    </div>
+
+
+    <div class="container-3">
+        <h1>Challenge 3:color generator</h1>
+        <div class="flex-box-pick-color">
+            <form action="">
+                <select name="backdrop" id="background" onchange="buttoncolorchange(this)">
+                    <option value="random">random</option>
+                    <option value="red">red</option>
+                    <option value="green">green</option>
+                    <option value="reset">reset</option>
+                
+                
+                
+                
+                </select>
+
+
+            </form>
+            <button class="btn btn-primary">wee</button>
+            <button class="btn btn-danger">yahoo</button>
+            <button class="btn btn-warning">google</button>
+            <button class="btn btn-success">fb</button>
+
+
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
